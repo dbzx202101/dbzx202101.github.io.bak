@@ -1,0 +1,98 @@
+# Site settings
+title: 埔中2021级01班
+SEOTitle: (●'◡'●)
+header-img: img/post-bg-desk.jpg
+email: ouroooo1@163.com
+description: "dbzx202101"
+keyword: "dbzx202101, 埔中2021级, 埔中2024届, 大埔中学, 埔中, 大埔中学2021级01班, 大埔中学2024届01班, dbzx"
+url: "https://dbzx202101.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/dbzx202101/dbzx202101.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "花有重开日，人无再少年."
+sidebar-avatar: /img/a.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     
+zhihu_username:     
+github_username:    dbzx202101
+facebook_username:  
+jianshu_username:   
+#twitter_username:   
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Gitalk
+gitalk:
+  enable: false    #是否开启Gitalk评论
+  clientID: none                            #生成的clientID
+  clientSecret: none    #生成的clientSecret
+  repo: iouro.github.io    #仓库名称
+  owner: iouro    #github用户名
+  admin: iouro
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "本站搭建者丨首页",
+        href: "https://ouroooo.github.io"
+    },{
+        title: "埔中论坛",
+        href: "http://dbzx.free.mbbs.cc"
+    },{
+        title: "联系站长",
+        href: "https://dbzx202101.github.io/img/wx.jpg"
+    },{
+        title: "QQ群聊",
+        href: "./"
+    }
+]
